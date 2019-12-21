@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Inblock Design</title>
+    <link rel="stylesheet" type="text/css" href="base.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <a href="https://www.google.com">
+                    <li>HOME</li>
+                </a>
+                <a href="cart.html">
+                    <li>PORTFOLIO</li>
+                </a>
+                <a href="index.html">
+                    <li>CONTACT</li>
+                </a>
+            </ul>
+        </nav>
+        <div class="container">
+        	<div id="scene">
+        		 <img src="images/sky.jpg" alt="tree photo" data-depth="0.1" width="1150px" height="750px" style="opacity: 0.9;"/>
+            <img src="images/parallax/stag.jpg" alt="stag photo" data-depth="0.2" style="opacity: 0.5;"/>
+
+        </div>
+            <div class="centered">
+                <a href="https://www.google.com">
+                    <div id="title">INBLOCK</div>
+                </a>
+                <div id="subtitle">DESIGN</div>
+            </div>
+              
+        </div>
+        <br>
+        <article>
+            <p><strong>Lorem ipsum</strong><br> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. <em>Excepteur sint</em>occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+            <p><strong>Lorem ipsum</strong><br> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. <em>Excepteur sint</em>occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</P>
+            <span></span>
+            <div></div>
+            <hr>
+            <section class="form">
+                <form method="GET" action="">
+                    <!-- Form -->
+                    <h1>CONTACT US</h1>
+                    <input type="text" name="firstname" placeholder="Enter your name...">
+                    <input type="email" required name="email" placeholder="Enter your email...">
+                    <br>
+                    <input type="username" min="5" name="password" placeholder="Enter your username...">
+                    <input type="password" min="5" name="password" placeholder="Enter your password...">
+                    <br>
+                    <input type="date" name="birthday">
+                    <input type="radio" name="gender" value="Male">Male
+                    <input type="radio" name="gender" value="Female">Female
+                    <br>
+                    <input type="checkbox" name="cat">Cat
+                    <input type="checkbox" name="dog">Dog            
+                    <br>
+                    <input type="submit" value="Register">
+                    <input type="reset">
+                </form>
+            </section>
+            <hr>
+    </main>
+    <footer>
+        <p>Created by Inblock Design Pty Ltd.</p>
+    </footer>
+
+    <div id="scene">
+  <div data-depth="0.2">My first Layer!</div>
+  <div data-depth="0.6">My second Layer!</div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);</script>
+</body>
+
+</html>

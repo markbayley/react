@@ -1,0 +1,64 @@
+/* 
+
+1. Add your custom Css styles below
+2. Place the this code in your template: 
+
+ <link href="css/custom.css" rel="stylesheet">
+
+*/
+
+
+body {
+    padding-top: 0px;
+  }
+  
+  .show-cart li {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+  .card-img-top {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+  }
+
+}
+
+
+ 
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
+}
+
+
+#title {
+   cursor: default;
+  
+
+  background-image: linear-gradient( to bottom left, #1ee5da, #20c997);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;                   
+}
+
+#subtitle {
+  cursor: default;
+  color: white !important; 
+
+  
+
+
+
+
+ 
+
+
+
+
+
