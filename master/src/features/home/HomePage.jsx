@@ -37,9 +37,10 @@ const HomePage = ({history}) => {
                     {/* would need differnt link for dev */}
                     <a
                         className="App-link"
-                        href='https://kevinsmithwebdev.github.io/forhadrienallemon/second'
+                        
+                        href=" https://markbayley.github.io/react/lottery-react"
                     >
-                        <h4>Go to second React</h4>
+                        <h4>BLOCK LOTTO</h4>
                     </a>
                 </div>
 

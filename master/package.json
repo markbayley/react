@@ -2,6 +2,7 @@
   "name": "revents",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "cuid": "^2.1.6",
     "date-fns": "^2.0.0-alpha.27",
