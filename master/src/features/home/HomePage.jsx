@@ -30,7 +30,18 @@ const HomePage = ({history}) => {
                <Icon name='right arrow' />
                 </Button>
 
-              
+                <div className="App">
+                    <header className="App-header">
+                        <h1 className="App-title">First App</h1>
+                    </header>
+                    {/* would need differnt link for dev */}
+                    <a
+                        className="App-link"
+                        href='https://kevinsmithwebdev.github.io/forhadrienallemon/second'
+                    >
+                        <h4>Go to second React</h4>
+                    </a>
+                </div>
 
                    
                 
