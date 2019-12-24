@@ -34,7 +34,7 @@ const UserDetailedDescription = ({ profile }) => {
                   </Item>
                 ))
               ) : (
-                  <p>No Interests</p>
+                  <p>No interests</p>
                 )}
             </List>
           </Grid.Column>

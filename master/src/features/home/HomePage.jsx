@@ -7,8 +7,8 @@ const HomePage = ({history}) => {
             <Container text>
 
               <a  href="Portfolio/index.html#portfolio">
-                <Button style={{ marginLeft: 70, marginBottom: 200 }} size='huge' inverted >
-                <Icon style={{ marginLeft: 15 }} name='home' size='large' inverted/> 
+                <Button style={{ marginLeft: 30, marginBottom: 200 }} size='huge' inverted >
+                <Icon style={{ marginLeft: 15 }} name='home' size='large'/> 
                  
              </Button> </a>
 
@@ -18,17 +18,19 @@ const HomePage = ({history}) => {
                         size='massive'
                         src='/assets/logo.png'
                         alt='logo'
-                        style={{ marginBottom: 12, marginLeft: 70 }}
+                        style={{ marginBottom: 12, marginLeft: 30 }}
                     />
-                    Re-vents
+                    Revents
              </Header>
              
              
 
-                <Button style={{ marginLeft: 70 }} onClick={() => history.push('/events')} size='huge' inverted>
+                <Button style={{ marginLeft: 30 }} onClick={() => history.push('/events')} size='huge' inverted>
                     Get started
-               <Icon name='right arrow' inverted />
+               <Icon name='right arrow' />
                 </Button>
+
+              
 
                    
                 

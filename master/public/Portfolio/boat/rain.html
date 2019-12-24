@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Inblock" />
+    <meta name="description" content="Portfolio">
+    <!-- Document title -->
+    <title>The Great Wave - Inblock Design Pty Ltd</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Template color -->
+    <link href="css/color-variations/orange.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="rain.css">
+</head>
+
+
+<body>
+    <div class="rain ">
+        <div class="container" style="margin-right: 100px;">
+            <div id="scene">
+                 
+                <!--Mountains-->
+                <img src="images/w7.gif" alt="wave print" data-depth="0.1" style="width: 100%; height: 100%; padding-bottom: 200px; opacity: 0.7;" />
+                <!--Words-->
+                <img src="images/words.gif" alt="wave print" data-depth="0.4" style="padding-left: 300px; width: 80%; height:80%; opacity: 0.5" />      
+                <!--Far Wave-->
+                <img class="slide-bck-br" src="images/w3.gif" alt="wave print" data-depth="0.3" style="width: 200%; height: 95%; opacity: 0.9; padding-bottom: 700px;" />
+                <!--Left Boat-->
+                <img class="slide" src="images/w5.gif" alt="wave print" data-depth="0.3" style="padding-top: 200px; padding-left: 200px; width: 90%; height: 100%; opacity: 0.6;" />
+                <!--Big Wave-->
+                <img class="bigwave" src="images/w2.gif" alt="wave print" data-depth="0.3" style="width: 100%; height: 100%; padding-top: 100px; padding-right: 300px;" />
+                <!--Far Boat-->
+                <img class="slide-bck-br" src="images/boat.gif" alt="print" data-depth="0.4" style="width: 40%; height: 40%;  padding-top: 450px; padding-left: 1300px; opacity: 0.7;" />         
+                <!--Near Wave-->
+                <img class="slide-bck-br" class="nearwave" src="images/w3.gif" alt=" print" data-depth="0.7" style="width: 200%; height: 100%" />         
+                <!--Near Boat-->
+                <img src="images/boat.gif" alt="print" class="nearboat" data-depth="0.6" style="width: 70%; height: 70%;  padding-top: 350px; padding-left: 300px;" />
+                <!--Near Wave-->
+                <img src="images/w8.gif" alt=" print"  data-depth="0.1" style="width: 170%; height: 100%; margin-right: 300px; padding-bottom: 300px" />             
+            </div>
+        </div> 
+      
+         <div class="arrow" style="border: none">
+            <a href="shore.html">
+                <div style="border: 2px solid grey; padding: 10px 20px" id="title"><i class="fa fa-arrow-right"></i></div>
+           </a>                     
+        </div>
+
+        <div class="home" style="border: none" >
+            <a href="../index.html#portfolio">
+                <div style="border: 2px solid grey; padding: 10px 20px; margin-right: 170px" id="title"><i class="fa fa-home"></i></div>
+           </a>                     
+        </div>
+
+        <div class="sound" style="border: none" >
+            <a href="shore.html">
+                <div style="border: 2px solid grey; padding: 10px 20px" id="title"><i class="fa fa-music"></i></div>              
+           </a>                            
+        </div>
+
+        <div id="audio">
+         
+            <audio controls style="color: grey;">
+    
+                <source src="rain.ogg" type="audio/ogg">
+                <source src="rain.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </div>   
+     
+   
+      
+    </div>
+    <div class="row" style="padding: 10%; height: 200px">
+    <div  data-animate="fadeInUp" data-animate-delay="0" >
+            <div>
+                
+                <h3 style="color: white">The Great Wave</h3>
+                <p style="color: white">Howling winds and giant waves tossed the fisherman's boats all through the night.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+
+</html>
