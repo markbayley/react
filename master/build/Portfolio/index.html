@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Inblock" />
+    <meta name="description" content="Portfolio">
+    <!-- Document title -->
+    <title>Inblock Design Pty Ltd</title>
+    <!-- Stylesheets & Fonts -->
+    <link href="css/plugins.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!-- Template color -->
+    <link href="css/color-variations/orange.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Exo|Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Header -->
+        <header id="header" data-transparent="true" class="dark">
+            <div class="header-inner">
+                <div class="container">
+                    <!--Logo-->
+                    <div id="logo">
+                        <a href="index.html" class="logo" data-src-dark="images/inblocklogo.png">
+                            <img src="images/inblocklogo.png" alt="Logo">   
+                        </a>
+                    
+                    </div>
+
+                    <!--End: Logo-->
+                    <!-- Search -->
+                    <div id="search">
+                        <div id="search-logo"><img src="images/" alt="Logo"></div>
+                        <button id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></button>
+                        <form class="search-form" action="search-results-page.html" method="get">
+                            <input class="form-control" name="q" type="search" placeholder="Search..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" />
+                            <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                        </form>
+                        <div class="search-suggestion-wrapper">
+                            <div class="search-suggestion">
+                                <h3>News Articles</h3>
+                                <p><a href="#">Beautiful nature, and rare feathers!</a></p>
+                                <p><a href="#">New costs and rise of the economy!</a></p>
+                                <p><a href="#">A true story, that never been told!</a></p>
+                            </div>
+                            <div class="search-suggestion">
+                                <h3>Looking for these?</h3>
+                                <p><a href="#">New costs and rise of the economy!</a></p>
+                                <p><a href="#">AI can be trusted to take answer calls </a></p>
+                                <p><a href="#">Polo now lets you easily create any beautiful clean website</a></p>
+                            </div>
+                            <div class="search-suggestion">
+                                <h3>Blog Posts</h3>
+                                <p><a href="#">A true story, that never been told!</a></p>
+                                <p><a href="#">Beautiful nature, and rare feathers!</a></p>
+                                <p><a href="#">The most happiest time of the day!</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: search -->
+                    <!--Header Extras-->
+                    <div class="header-extras">
+                        <ul>
+                            <li>
+                                <!--search icon-->
+                                <a id="btn-search" href="#"> <i class="icon-search1"></i></a>
+                                <!--end: search icon-->
+                            </li>
+                            <li class="d-none d-sm-block">
+                                <!--shopping cart-->
+                                <div id="shopping-cart" class="p-dropdown">
+                                    <a href="#"><span class="shopping-cart-items total-count" style="color: black"></span><i class="icon-shopping-cart1"></i></a>                       
+                                        <div class="p-dropdown-content ">
+                                            <div class="widget-mycart">
+                                             
+                                                <h4>My Cart</h4>
+                                                <div class="modal-body">
+                                                    <table class="show-cart table">
+
+                                                    </table>
+                                                   
+                                                </div>
+                                             
+
+                                                <div class="cart-total">
+                                                    <div class="cart-total-labels" style="padding: 12px">
+                                                        <span>Subtotal</span>
+                                                        <span>Taxes</span>
+                                                        <span><strong>Total</strong></span>
+                                                    </div>
+                                                    <div class="cart-total-prices" style="padding-right:75px">
+                                                        <span class="subtotal-cart"></span>
+                                                        <span>8%</span>
+                                                        <span class="total-cart"><strong></strong></span>
+                                                    </div>
+                                                </div>
+
+
+                                               
+                                            </div>
+                                            <div class="cart-buttons text-right">
+                                                <a href="checkout.html"><button class="btn btn-outline btn-xs">Checkout</button></a>
+                                            </div>
+                                        </div>
+                                </div>
+                            <!--end: shopping cart-->
+                            </li>
+                        </ul>
+                   </div>
+                <!--end: Header Extras-->
+                <!--Navigation Resposnive Trigger-->
+                <div id="mainMenu-trigger">
+                    <button class="lines-button x"> <span class="lines"></span> </button>
+                </div>
+                <!--end: Navigation Resposnive Trigger-->
+                <!--Navigation-->
+                <div id="mainMenu" class="menu-uppercase" style="overflow: hidden">
+                    <div class="container">
+                        <nav>
+                            <ul>
+                                <div class="row"></div>
+                                <li > <a href="#slider" class="scroll-to">Home</a></li>
+                                <li > <a href="#about" class="scroll-to">About</a></li>
+                                <li > <a href="#portfolio" class="scroll-to">Portfolio</a></li>
+                                <li > <a href="#services" class="scroll-to">Services</a></li>
+                                <li > <a href="#contact" class="scroll-to">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <!--end: Navigation-->
+            </div>
+        </div>
+    </header>
+    <!-- end: Header -->
+    <!-- Inspiro Slider -->
+    <div id="slider" class="inspiro-slider slider-fullscreen arrows-large arrows-creative dots-creative">
+        <!-- Slide 1 -->
+        <div class="slide background-overlay-gradient kenburns background-image" style="background-image:url('images/portfolio/womanface.jpg');">
+            <div class="container">
+                <div class="slide-captions text-center text-light strong" data-animate="fadeInUp" data-animate-delay="600">
+                    <!-- Captions -->
+                    <h1 id="title">INBLOCK</h1>
+                    <p id="subtitle">Web Design. App Development.</p>
+                    <a href="#contact" class="btn btn-outline text-light scroll-to">GET QUOTE</a>
+                    <!-- end: Captions -->
+                </div>
+            </div>
+        </div>
+        <!-- end: Slide 1 -->
+    </div>
+    <!--end: Inspiro Slider -->
+    <!-- WELCOME -->
+    <section id="welcome" class="p-b-0">
+        <div class="container">
+            <div class="heading-text heading-section text-center m-b-40" data-animate="fadeInUp">
+                <h2>WELCOME</h2>
+                <span class="lead">Talk to us about your next project.</br>
+                We specialize in building modern, clean and responsive solutions that meet your needs.</span>
+            </div>
+        </div>
+    </section>
+    <!-- end: WELCOME -->
+    <!-- COUNTERS -->
+    <section id="section6">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 text-center" data-animate="fadeInUp" data-animate-delay="200">
+                    <div class="pie-chart" data-percent="85" data-color="#0cbb99" data-width="14"> <span class="percent"></span> </div>
+                    <h4>HTML5/CSS3</h4>
+                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum cursumus.</p>
+                </div>
+                <div class="col-lg-3 text-center" data-animate="fadeInUp" data-animate-delay="200">
+                    <div class="pie-chart" data-percent="88" data-color="#0cbb99" data-width="14"> <span class="percent"></span> </div>
+                    <h4>React.js</h4>
+                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum cursumus.</p>
+                </div>
+                <div class="col-lg-3 text-center" data-animate="fadeInUp" data-animate-delay="300">
+                    <div class="pie-chart" data-percent="81" data-color="#0cbb99" data-width="14"> <span class="percent"></span> </div>
+                    <h4>Web3.js</h4>
+                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor.</p>
+                </div>
+                <div class="col-lg-3 text-center" data-animate="fadeInUp" data-animate-delay="400">
+                    <div class="pie-chart" data-percent="79" data-color="#0cbb99" data-width="14"> <span class="percent"></span> </div>
+                    <h4>Solidity</h4>
+                    <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: COUNTERS -->
+    <!-- WHAT WE DO -->
+    <section id="about" class="background-grey">
+        <div class="container">
+            <div class="heading-text heading-section">
+                <h2>WHAT WE DO</h2>
+                <span class="lead">Create amam ipsum dolor sit amet, Beautiful nature, and rare feathers!.</span>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div data-animate="fadeInUp" data-animate-delay="0">
+                        <h4>Modern Design</h4>
+                        <p>Lorem ipsum dolor sit amet, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div data-animate="fadeInUp" data-animate-delay="200">
+                        <h4>Loaded with Features</h4>
+                        <p>Lorem ipsum dolor sit amet, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div data-animate="fadeInUp" data-animate-delay="400">
+                        <h4>Completely Customizable</h4>
+                        <p>Lorem ipsum dolor sit amet, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div data-animate="fadeInUp" data-animate-delay="600">
+                        <h4>100% Responsive Layout</h4>
+                        <p>Lorem ipsum dolor sit amet, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div data-animate="fadeInUp" data-animate-delay="800">
+                        <h4>Clean Modern Code</h4>
+                        <p>Lorem ipsum dolor sit amet, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div data-animate="fadeInUp" data-animate-delay="1000">
+                        <h4>Free Updates & Support</h4>
+                        <p>Lorem ipsum dolor sit amet, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis aliquam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END WHAT WE DO -->
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="p-b-0">
+        <div class="container">
+            <div class="heading-text heading-section">
+                <h2>PORTFOLIO</h2>
+                <span class="lead">Lorem ipsum dolor sit amet, coper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto.</span>
+            </div>
+        </div>
+        <div class="portfolio">
+            <!-- Portfolio Items -->
+            <div id="portfolio" class="grid-layout portfolio-3-columns" data-margin="0">
+                <!-- portfolio item -->
+                <div class="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/portfolio/doublefemale.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="portfolio-page-grid-gallery.html">
+                                <h3 style="text-indent: -10px">Ecommerce Site</h3>
+                                <span>JavaScript / HTML</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end: portfolio item -->
+                <!-- portfolio item -->
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <a href='../'>
+                            <div class="portfolio-image">
+                                <a href="../">
+                                    <img src="images/revents.jpg" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <h3>SOCIAL APP</h3>
+                                <span>React / Redux</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end: portfolio item -->
+                <!-- portfolio item -->
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/stag.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="portfolio-page-grid-gallery.html">
+                                <h3 style="text-indent: -15px">Blockchain DApp</h3>
+                                <span>Solidity / Web3.js</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end: portfolio item -->
+                <!-- portfolio item -->
+                <div class="portfolio-item img-zoom ct-marketing ct-media ct-branding ct-marketing ct-webdesign">
+                    <div class="portfolio-item-wrap">
+                        <div class="portfolio-image">
+                            <a href="#"><img src="images/portfolio/doublefemale.jpg" alt=""></a>
+                        </div>
+                        <div class="portfolio-description">
+                            <a href="portfolio-page-grid-gallery.html">
+                                <h3>GAMING APP</h3>
+                                <span>Unity / C#</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end: portfolio item -->
+                <!-- portfolio item -->
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <a href="bakery/home-bakery.html">
+                            <div class="portfolio-image">
+                                <a href="bakery/home-bakery.html">
+                                    <img src="images/bakery.png" alt="Bakery"></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <h3>BASIC WEBSITE</h3>
+                                <span>Illustrations / Graphics</span>
+                            </div>
+                        </a>
+                    </div>
+                </div> 
+                <!-- end: portfolio item -->
+                <!-- portfolio item -->
+                <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-Media">
+                    <div class="portfolio-item-wrap">
+                        <a href="boat/rain.html">
+                            <div class="portfolio-image">
+                                <a href="boat/rain.html">
+                                    <img src="images/waves.png" alt=""></a>
+                            </div>
+                            <div class="portfolio-description">
+                                <h3>DIGITAL STORY</h3>
+                                <span>JavaScript / CSS3</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end: portfolio item -->
+            </div>
+            <!-- end: Portfolio Items -->
+        </div>
+    </section>
+    <!-- end: PORTFOLIO -->
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container">
+            <div class="heading-text heading-section text-center">
+                <h2>SERVICES</h2>
+                <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="0">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-plug"></i></a>
+                        </div>
+                        <h3>Powerful template</h3>
+                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="200">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-desktop"></i></a>
+                        </div>
+                        <h3>Responsive Layouts</h3>
+                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                    </div>
+                </div>
+          
+                <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="600">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon">
+                            <a href="#"><i class="far fa-lightbulb"></i></a>
+                        </div>
+                        <h3>Fast processing</h3>
+                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                    </div>
+                </div>
+        
+            
+                <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="1200">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-rocket"></i></a>
+                        </div>
+                        <h3>Modern Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="1400">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-flask"></i></a>
+                        </div>
+                        <h3>Clean Modern Code</h3>
+                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="1600">
+                    <div class="icon-box effect medium border small">
+                        <div class="icon">
+                            <a href="#"><i class="fa fa-umbrella"></i></a>
+                        </div>
+                        <h3>Free Updates & Support</h3>
+                        <p>Lorem ipsum dolor sit amet, consecte adipiscing elit. Suspendisse condimentum porttitor cursumus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: SERVICES -->
+    <div class="heading-text heading-section text-center">
+                <h2>SELECT A PRODUCT</h2>
+            </div>
+    <!-- MOBILE Pricing Table  -->
+    <section id="prices" data-parallax-image="images/stag.jpg">
+        <div class="container">
+
+            <!-- Pricing Table -->
+            
+
+            <div class="row-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        Package 1
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Basic Website</h4>
+                        <p class="card-text">Package includes basic HTML5/CSS3 website with responsive design, custom domain name, and one year's free hosting.</p>
+                        <a href="#contact" class="btn btn-warning">GET QUOTE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        Package 2
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Interactive App</h4>
+                        <p class="card-text">Package includes all features of the basic features plus more advanced user interaction such as login, registration, user profiles, chat or messaging, and user photo uploading, with React / JavaScript</p>
+                        <a href="#contact" class="btn btn-warning">GET QUOTE</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        Package 3
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">Blockchain Dapp</h4>
+                        <p class="card-text">Package includes browser detection of MetaMask account, smart contract integration and deployment, and user interface using Solidity and Web3.js </p>
+                        <a href="#contact" class="btn btn-warning">GET QUOTE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DESKTOP Pricing Table -->
+        <section id="content"  data-parallax-image="images/stag.jpg">
+            <div class="container-fluid">
+                <div class="container-fullscreen">
+                    <div class="text-middle text-center">
+                      <div class="container" style="margin-top: 100px">
+            <div class="row pricing-table">
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="plan">
+                        <div class="plan-header">
+                            <h4>Basic Website</h4>
+                            <p class="text-muted">From</p>
+                            <div class="plan-price"><sup>$</sup>895<span></span> </div>
+                           
+                        </div>
+                        <div class="plan-list">
+                            <ul>
+                                <li><i class="fas fa-globe-americas"></i>Responsive Design</li>
+                                <li><i class="fa fa-user"></i>Custom Domain Name</li>
+                                <li><i class="fa fa-star"></i>1 Year Hosting</li>
+                                <li><i class="fa fa-server"></i>Mobile Ready</li>
+                            </ul>
+                            <div class="plan-button">
+                                <a href="cart.html" data-name="Basic_Website" data-price="895" class="add-to-cart btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="plan featured">
+                        <div class="plan-header">
+                            <h4>Interactive Website</h4>
+                            <p class="text-muted">From</p>
+                            <div class="plan-price"><sup>$</sup>1895<span></span> </div>
+                           
+                        </div>
+                        <div class="plan-list">
+                            <ul>
+                                 <li><i class="fas fa-globe-americas"></i>Basic Package</li>
+                                <li><i class="fas fa-globe-americas"></i>User Profiles</li>
+                               
+                                <li><i class="fa fa-signal"></i>Chat Messaging</li>
+                                <li><i class="fa fa-user"></i>Upload Photos</li>
+                             
+                            </ul>
+                            <div class="plan-button">
+                                <a href="cart.html" data-name="Interactive_Website" data-price="1595" class="add-to-cart btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="plan">
+                        <div class="plan-header">
+                            <h4>Blockchain Dapp</h4>
+                            <p class="text-muted">From</p>
+                            <div class="plan-price"><sup>$</sup>2495<span></span> </div>
+                            <!-- <div class="countdown small" data-countdown="2019/12/19 11:34:51"></div> -->
+                        </div>
+                        <div class="plan-list">
+                            <ul>
+                                <li><i class="fas fa-globe-americas"></i>MetaMask Setup</li>
+                                <li><i class="fa fa-thumbs-up"></i>Dapp Interface</li>
+                                <li><i class="fa fa-signal"></i>Smart Contract</li>
+                                <li><i class="fa fa-user"></i>Test & Deploy</li>
+                               
+                            </ul>
+                            <div class="plan-button">
+                                <a href="cart.html" data-name="Android_App" data-price="1895" class="add-to-cart btn">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                     
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end: DESKTOP Pricing Table -->
+
+           
+
+    <!-- COUNTERS -->
+    <section id="counters" style="color: #20c997" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <div class="icon"><i class="fa fa-3x fa-code"></i></div>
+                        <div class="counter"> <span data-speed="3000" data-refresh-interval="50" data-to="12416" data-from="600" data-seperator="true"></span> </div>
+                        <div class="seperator seperator-small"></div>
+                        <p>LINES OF CODE</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <div class="icon"><i class="fa fa-3x fa-coffee"></i></div>
+                        <div class="counter"> <span data-speed="4500" data-refresh-interval="23" data-to="365" data-from="100" data-seperator="true"></span> </div>
+                        <div class="seperator seperator-small"></div>
+                        <p>CUPS OF COFFEE</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <div class="icon"><i class="fa fa-3x fa-rocket"></i></div>
+                        <div class="counter"> <span data-speed="3000" data-refresh-interval="12" data-to="114" data-from="50" data-seperator="true"></span> </div>
+                        <div class="seperator seperator-small"></div>
+                        <p>FINISHED PROJECTS</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-center">
+                        <div class="icon"><i class="fa fa-3x fa-smile"></i></div>
+                        <div class="counter"> <span data-speed="4550" data-refresh-interval="50" data-to="125" data-from="48" data-seperator="true"></span> </div>
+                        <div class="seperator seperator-small"></div>
+                        <p>SATISFIED CLIENTS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: COUNTERS -->
+    <!-- Contact Form -->
+    <div id="contact" class="container">
+        <div class="heading-text heading-section text-center">
+                <h2>CONTACT US</h2>
+      </div>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>INBLOCK DESIGN</h3>
+                <ul>
+                    <li><i class="fa fa-road"></i> 10 Eagle St, Brisbane</li>
+                    <li><i class="fa fa-phone"></i> 0417369769</li>
+                    <li><i class="fa fa-envelope"></i> contact@inblockdesign.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>Email Us</h3>
+                <div class="alert">Your message has been sent</div>
+                <form id="contactForm">
+                    <p>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    <p>
+                        <label>Company</label>
+                        <input type="text" name="company" id="company">
+                    </p>
+                    <p>
+                        <label>Email Address</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                        <label>Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                    </p>
+                    <p class="full">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class="full">
+                        <button class="btn btn-outline" type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+     <!-- end: Contact Form -->
+    <div class="space"></div>
+    <!-- Footer -->
+    <section>
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    <div class="copyright-content">
+                        <div class="container">
+                            <div class="copyright-text text-center">
+                                &copy; 2019 Inblock Design Pty Ltd. All Rights Reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end: Footer -->
+    <!-- Modal -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">My Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+                    </table>
+                    <div>Total price: $<span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-sm">Order now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end: Modal -->
+    </div>
+    <!-- end: Body Inner -->
+    <!-- Scroll top -->
+    <a id="scrollTop"><i class="icon-chevron-up1"></i><i class="icon-chevron-up1"></i></a>
+    <!--Plugins-->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.js"></script>
+    <!--Template functions-->
+    <script src="js/functions.js"></script>
+    <!-- Load React. When deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <!-- Load our React component. -->
+    <script src="js/custom.js"></script>
+    <!--Firebase Email-->
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>  
+    <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-database.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

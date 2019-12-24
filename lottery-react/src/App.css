@@ -21,3 +21,35 @@
   color: #09d3ac;
 }
 
+.metamask {
+  float: right;
+  padding-top: 10px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.home {  
+  position: relative;
+  top: 0%;
+  left: 92%;
+  padding-bottom: 5%;
+  
+}
+
+@media screen and (max-width: 780px) {
+  .module {
+    margin: 0%;
+  }
+
+  .home {
+    position: relative;
+    top: 0%;
+    left: 85%;
+    padding-bottom: 5%;
+    
+
+  }
+ 
+}

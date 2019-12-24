@@ -4,6 +4,7 @@ import './App.css';
 import web3 from './web3';
 import lottery from './lottery';
 
+
 class App extends Component {
   state = {
     manager: '',
@@ -59,8 +60,15 @@ class App extends Component {
   render() {
 
   return (
+   
     <div class="module">
+       <nav>
+         <a href="https://markbayley.github.io/react/master/build/Portfolio/index.html"><img className="home" src="home.png" alt="home icon" /></a>
+    
+      </nav>
+      <a className="metamask" alt="metamask" href="https://metamask.io"><img src="metamask.gif"/></a>
         <h1>Block Lotto</h1>
+        
         <hr />
         <h4>
         There are currently <div class="numberCircle">{this.state.players.length}</div>people entered 
@@ -94,8 +102,13 @@ class App extends Component {
         <button class="btn" onClick={this.onClick}>Pick a winner!</button>
 
         <hr />
-        Contract Manager: <a href="https://rinkeby.etherscan.io/address/0xAf52D0807faBb16e5229D2dB7042B3862889FA82"><strong>{this.state.manager}</strong></a>.<br></br><br></br>
-        Please Note: You must have MetaMask installed to play.
+        <div className="centered">
+        Contract Manager: <a href="https://rinkeby.etherscan.io/address/0xAf52D0807faBb16e5229D2dB7042B3862889FA82"><strong>{this.state.manager}</strong></a>.<br></br>
+        Please Note: You must have  <a href="https://metamask.io">MetaMask</a> installed to play.<br></br> App currently operates on the Rinkby test network.<br>
+       </br> <br></br>
+       
+        <div className="centered">Created by Inblock Design Pty Ltd.</div></div>
+        
 
 
     </div>

@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>Rain</title>
+    <link rel="stylesheet" href="rain.css">
+</head>
+
+<body>
+    <div class="rain ">
+        <div class="container" style="margin-right: 100px;">
+            <div id="scene"  class="heading-text heading-section text-center m-b-40" data-animate="fadeInUp">
+                <!--Background-->
+                <img src="images/background.gif" alt="wave print" data-depth="-0.1" style="width: 110%; height: 110%; opacity: 0.8;" />
+                
+                <!--Women-->
+                <img class="" src="images/women.gif" alt="print" data-depth="0.1" style="width: 100%; height: 100%; opacity: 0.8;" />
+              
+                <!--Man-->
+                <img class="" src="images/man.gif" alt=" print" data-depth="0.5" style="width: 100%; height: 100%;" />
+             
+                  <!--Children-->
+                <img src="images/child.gif" alt="print" data-depth="0.6" style="width: 100%; height: 100%; padding-left: 100px" /> 
+            </div>
+        </div>
+
+       
+
+        <div id="audio">
+         <a><img  src="images/sound.png" alt="sound icon" style="position: fixed; bottom: 5; right: 35;"/></a>
+        <audio controls style="position: fixed; bottom: 5; right: 15; color: grey;">
+
+            <source src="rain.ogg" type="audio/ogg">
+            <source src="rain.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        </div>
+
+         <div class="centered"> 
+             <a href="rain.html">
+                   <div id="title" >Continue...</div>
+                </a>
+                <div id="subtitle"></div>
+            </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script>
+    var scene = document.getElementById('scene');
+    var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+
+</html>

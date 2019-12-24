@@ -15,8 +15,8 @@ code {
   color: white;
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   padding: 5%;
   background: rgb(16,135,207);
   background: linear-gradient(90deg, rgba(16,135,207,1) 0%, rgba(205,22,198,1) 100%);
@@ -223,11 +223,12 @@ label {
 }
 
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1280px) {
   .module {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0%;
   }
+
+ 
  
 }
 
