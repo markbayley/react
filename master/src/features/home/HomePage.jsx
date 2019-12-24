@@ -38,7 +38,7 @@ const HomePage = ({history}) => {
                     <a
                         className="App-link"
                         
-                        href=" https://markbayley.github.io/react/lottery-react"
+                        href="https://markbayley.github.io/react/lottery-react/build/index.html"
                     >
                         <h4>BLOCK LOTTO</h4>
                     </a>
