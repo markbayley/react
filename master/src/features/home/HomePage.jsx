@@ -6,7 +6,7 @@ const HomePage = ({ history }) => {
         <Segment inverted textAlign='center' vertical className='masthead'>
             <Container text>
 
-                <a href="https://www.inblockdesign.com">
+                <a href="https://www.inblockdesign.com/index.html">
                     <Button style={{ marginLeft: 30, marginBottom: 200 }} size='huge' inverted >
                         <Icon style={{ marginLeft: 15 }} name='home' size='large' />
 
@@ -16,7 +16,7 @@ const HomePage = ({ history }) => {
                     <Header as='h1' inverted>
                         <Image
                             size='massive'
-                            src='/assets/logo.png'
+                            src='assets/logo.png'
                             alt='logo'
                             style={{ marginBottom: 12, marginLeft: 30 }}
                         />
