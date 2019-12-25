@@ -63,7 +63,7 @@ class App extends Component {
    
     <div class="module">
        <nav>
-         <a href="https://markbayley.github.io/react/master/build/Portfolio/index.html"><img className="home" src="home.png" alt="home icon" /></a>
+         <a href="https//www.inblockdesign.com"><img className="home" src="home.png" alt="home icon" /></a>
     
       </nav>
       <a className="metamask" alt="metamask" href="https://metamask.io"><img src="metamask.gif"/></a>
