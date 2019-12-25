@@ -71,7 +71,7 @@ class App extends Component {
         
         <hr />
         <h4>
-        There are currently <div class="numberCircle">{this.state.players.length}</div>people entered 
+        There are now <div class="numberCircle">{this.state.players.length}</div>people entered 
         competing to win <div class="numberBox"> {web3.utils.fromWei(this.state.balance, 'ether')} </div> Ether!
         </h4>
 

@@ -20,7 +20,7 @@ const HomePage = ({ history }) => {
                             alt='logo'
                             style={{ marginBottom: 12, marginLeft: 30 }}
                         />
-                        Revents
+                        Eventia
                     </Header>
 
 
