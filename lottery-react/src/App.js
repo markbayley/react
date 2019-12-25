@@ -116,7 +116,7 @@ class App extends Component {
         {/* would need differnt link for dev */}
         <a
           className="App-link"
-          href='https://markbayley.github.io/react/master'
+          href='https://markbayley.github.io/react/master/build/index.html'
         >
           Go to second React app!
         </a>
