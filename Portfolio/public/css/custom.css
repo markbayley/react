@@ -43,6 +43,7 @@ body {
   
   background-image: linear-gradient( to bottom left, #1ee5da, #199b74);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; 
                   
 }

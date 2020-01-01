@@ -1,0 +1,45 @@
+body {
+  padding-top: 80px;
+}
+
+.container {
+  font-family: 'Bilbo Swash Caps', cursive;
+  font-size: 24px;
+}
+
+.show-cart li {
+  display: flex;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+.card-title {
+   font-weight: 600;
+}
+
+.btn-success {
+  float: right;
+}
+
+
+
+.card-img-top {
+  width: 320px;
+  height: 300px;
+  align-self: center;
+}
+
+.item-count {
+  width: 40px;
+}
+
+@media screen (max-width 480px) {
+  .card {
+    width: 100%;
+   
+  }
+
+}
+
+
