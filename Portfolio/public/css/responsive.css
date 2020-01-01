@@ -480,10 +480,10 @@ Tablets (≥768px)
 
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 967px) {
 
     .heading-text h2 {
-       font-size: 30px !important;
+       font-size: 26px !important;
     }
 
     #subtitle {
@@ -497,19 +497,22 @@ Tablets (≥768px)
 
     /*hides these sections*/
     #section6 {
-       height: 0em;
-       width: 0em;
+        display: none;
     }
 
     #counters {
-       height: 0em;
-       width: 0em;
+        display: none;
     }
 
- 
-
-
-
+    
+    #blockchain { 
+        display: none;
+     }  
+     
+    #portfolio div {
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
 
     #services div {
         margin-bottom: 0px !important;
@@ -518,8 +521,16 @@ Tablets (≥768px)
     }
 
     #welcome div {
-        margin-bottom: 0px !important;
+        
         margin-top: 0px !important;
+    }
+
+    #contact div {
+        margin-top: 35px !important;    
+    }
+
+    .contact form {
+        grid-gap:20px;
     }
 
 

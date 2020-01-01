@@ -109,18 +109,7 @@ class App extends Component {
        
         <div className="centered">Created by Inblock Design Pty Ltd.</div></div>
 
-        <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">First App</h1>
-        </header>
-        {/* would need differnt link for dev */}
-        <a
-          className="App-link"
-          href='https://markbayley.github.io/react/master/build/index.html'
-        >
-          Go to second React app!
-        </a>
-      </div>
+        
         
 
 

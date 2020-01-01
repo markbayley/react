@@ -24,7 +24,7 @@ body {
     align-self: center;
   }
 
-}
+
 
 
  
@@ -39,20 +39,22 @@ body {
 
 
 #title {
-   cursor: default;
+  cursor: default;
   
-
-  background-image: linear-gradient( to bottom left, #1ee5da, #20c997);
+  background-image: linear-gradient( to bottom left, #1ee5da, #199b74);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;                   
+  -webkit-text-fill-color: transparent; 
+                  
 }
+
+
 
 #subtitle {
   cursor: default;
+  text-shadow: 2px 1px 1px darkslategrey;
   color: white !important; 
 
-  
-
+}
 
 
 
