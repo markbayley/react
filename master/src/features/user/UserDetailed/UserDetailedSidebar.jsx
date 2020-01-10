@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const UserDetailedSidebar = ({isCurrentUser}) => {
   return (
-    <Grid.Column width={4}>
+    <Grid.Column width={16}>
       <Segment>
         {isCurrentUser ? 
         <Button 

@@ -28,9 +28,9 @@ const UserDetailedHeader = ({ profile }) => {
               <br />
               <Header as='h3'>{profile.occupation}</Header>
               <br />
-              <Header as='h3'>
-                {age || 'unknown age'}, Lives in{' '}
-                {profile.city || 'unknown city'}
+              <Header as='h3'>             
+                 Lives in{' '}
+                {profile.city || 'unknown city'}, {age || '(38 years)'}
               </Header>
             </Item.Content>
           </Item>

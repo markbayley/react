@@ -4,7 +4,7 @@ import { format } from 'date-fns';
 
 const UserDetailedDescription = ({ profile }) => {
   return (
-    <Grid.Column width={12}>
+    <Grid.Column width={16}>
       <Segment>
         <Grid columns={2}>
           <Grid.Column width={10}>
@@ -29,7 +29,7 @@ const UserDetailedDescription = ({ profile }) => {
               {profile.interests ? (
                 profile.interests.map((interest, index) => (
                   <Item key={index}>
-                    <Icon name='heart' />
+                    <Icon name='heart' style={{paddingLeft: 7}}/>
                     <Item.Content>{interest}</Item.Content>
                   </Item>
                 ))

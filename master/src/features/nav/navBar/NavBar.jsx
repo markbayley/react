@@ -45,8 +45,8 @@ class NavBar extends Component {
                     <Menu.Item as={NavLink} exact to='/events' name="Events" />
                     {authenticated && (
                         <Fragment>
-                            <Menu.Item as={NavLink} to='/people' name="People" />
-                            <Menu.Item as={NavLink} to='/test' name="Messages" />
+                            <Menu.Item as={Link} to={`/profile/${auth.uid}`} text="My Profile" icon="user" />
+                            <Menu.Item as={NavLink} to='/test' name="Chat" />
                             <Menu.Item>
                                 <Button
                                     as={Link}
@@ -55,6 +55,8 @@ class NavBar extends Component {
                                     positive
                                     inverted
                                     content="Create Event"
+                                    style={{ marginLeft: -5 }}
+                                                         
                                 />
                             </Menu.Item>
                         </Fragment>

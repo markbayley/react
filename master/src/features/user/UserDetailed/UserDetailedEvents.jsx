@@ -3,18 +3,18 @@ import { Segment, Header, Menu, Grid, Card, Image } from 'semantic-ui-react';
 
 const UserDetailedEvents = () => {
   return (
-    <Grid.Column width={12}>
+    <Grid.Column width={16}>
       <Segment attached>
         <Header icon='calendar' content='Events' />
-        <Menu secondary pointing>
+        <Menu secondary pointing style={{ padding: 15 }}>
           <Menu.Item name='All Events' active />
           <Menu.Item name='Past Events' />
-          <Menu.Item name='Future Events' />
+       
           <Menu.Item name='Events Hosted' />
         </Menu>
 
-        <Card.Group itemsPerRow={5}>
-          <Card>
+        <Card.Group itemsPerRow={3} style={{ marginLeft: -10 }}>
+          <Card style={{ marginRight: 5 }}>
             <Image src={'/assets/categoryImages/drinks.jpg'} />
             <Card.Content>
               <Card.Header textAlign='center'>Event Title</Card.Header>
@@ -25,6 +25,16 @@ const UserDetailedEvents = () => {
           </Card>
 
           <Card>
+            <Image src={'/assets/categoryImages/drinks.jpg'} />
+            <Card.Content>
+              <Card.Header textAlign='center'>Event Title</Card.Header>
+              <Card.Meta textAlign='center'>
+                28th March 2018 at 10:00 PM
+              </Card.Meta>
+            </Card.Content>
+          </Card>
+
+          <Card style={{ marginLeft: 5 }}>
             <Image src={'/assets/categoryImages/drinks.jpg'} />
             <Card.Content>
               <Card.Header textAlign='center'>Event Title</Card.Header>
