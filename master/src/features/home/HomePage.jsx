@@ -7,26 +7,31 @@ const HomePage = ({ history }) => {
             <Container text>
 
                 <a href="https://www.inblockdesign.com/index.html">
-                    <Button style={{ marginLeft: 30, marginBottom: 200 }} size='huge' inverted >
+                    <Button style={{ marginLeft: 0, marginBottom: 200 }} size='huge' inverted >
                         <Icon style={{ marginLeft: 15 }} name='home' size='large' />
 
                     </Button> </a>
 
 
-                    <Header as='h1' inverted>
+                    <Header as='h1' inverted style={{ marginBottom: 0}} >
                         <Image
                             size='massive'
-                            src='/assets/logo.png'
+                            src='/assets/logo3.png'
                             alt='logo'
-                            style={{ marginBottom: 12, marginLeft: 30 }}
+                            style={{ marginBottom: 15 }}
+                            
                         />
-                        Eventia
+                        SocialCode
                     </Header>
+                    <Header as='h2' inverted style={{ marginTop: 0, fontWeight: 50}}> 
+                       
+                       
+                    </Header>
+                          
 
 
-
-                    <Button style={{ marginLeft: 30 }} onClick={() => history.push('/events')} size='huge' inverted>
-                        Get started
+                    <Button style={{ marginTop: 50 }} onClick={() => history.push('/events')} size='huge' inverted>
+                        Get Started
                     <Icon name='right arrow' />
                     </Button>
 

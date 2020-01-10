@@ -6,7 +6,8 @@ const EventActivity = () => {
         <Fragment>
             <Header attached='top' content='Recent Activity' />
             <Segment attached>
-                <p>Recent Activity</p>
+                <p>3 new members joined 'React Meetup'...</p>
+                <p>1 member sent you a message</p>
             </Segment>
         </Fragment>
     )

@@ -34,8 +34,8 @@ body {
   width: 40px;
 }
 
-@media screen (max-width 480px) {
-  .card {
+@media (max-width: 480px) {
+  .wrapper {
     width: 100%;
    
   }

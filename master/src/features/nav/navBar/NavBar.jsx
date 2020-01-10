@@ -38,16 +38,15 @@ class NavBar extends Component {
         const authenticated = auth.isLoaded && !auth.isEmpty;
         return (
             <Menu inverted fixed="top">
-                <Container>
+                <Container >
                     <Menu.Item as={NavLink} exact to='/' header>
-                        <img src="/assets/logo.png" alt="logo" />
-                        Re-vents
+                        <img src="/assets/logo3.png" alt="logo" />                   
                      </Menu.Item>
                     <Menu.Item as={NavLink} exact to='/events' name="Events" />
                     {authenticated && (
                         <Fragment>
                             <Menu.Item as={NavLink} to='/people' name="People" />
-                            <Menu.Item as={NavLink} to='/test' name="Test" />
+                            <Menu.Item as={NavLink} to='/test' name="Messages" />
                             <Menu.Item>
                                 <Button
                                     as={Link}
