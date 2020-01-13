@@ -42,21 +42,20 @@ class NavBar extends Component {
                     <Menu.Item as={NavLink} exact to='/' header>
                         <img src="/assets/logo3.png" alt="logo" />                   
                      </Menu.Item>
-                    <Menu.Item as={NavLink} exact to='/events' name="Events" />
+                    <Menu.Item as={NavLink} exact to='/events' icon="home" style={{marginLeft: -25}}/>
                     {authenticated && (
                         <Fragment>
                             <Menu.Item as={Link} to={`/profile/${auth.uid}`} text="My Profile" icon="user" />
-                            <Menu.Item as={NavLink} to='/test' name="Chat" />
-                            <Menu.Item>
-                                <Button
+                            {/*<Menu.Item as={NavLink} to='/test' icon="chat" />*/}
+                            <Menu.Item >
+                                <Button 
                                     as={Link}
                                     to='/createEvent'
                                     floated="right"
                                     positive
                                     inverted
-                                    content="Create Event"
-                                    style={{ marginLeft: -5 }}
-                                                         
+                                    icon="plus circle"
+                                    style={{ margin: -15 }}                                                    
                                 />
                             </Menu.Item>
                         </Fragment>

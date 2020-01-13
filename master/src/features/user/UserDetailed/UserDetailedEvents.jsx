@@ -6,15 +6,15 @@ const UserDetailedEvents = () => {
     <Grid.Column width={16}>
       <Segment attached>
         <Header icon='calendar' content='Events' />
-        <Menu secondary pointing style={{ padding: 15 }}>
+        <Menu secondary pointing style={{ padding: 0 }}>
           <Menu.Item name='All Events' active />
           <Menu.Item name='Past Events' />
        
           <Menu.Item name='Events Hosted' />
         </Menu>
 
-        <Card.Group itemsPerRow={3} style={{ marginLeft: -10 }}>
-          <Card style={{ marginRight: 5 }}>
+        <Card.Group itemsPerRow={3} style={{ marginLeft: 0 }}>
+          <Card style={{ marginRight: 10 }}>
             <Image src={'/assets/categoryImages/drinks.jpg'} />
             <Card.Content>
               <Card.Header textAlign='center'>Event Title</Card.Header>
@@ -34,7 +34,7 @@ const UserDetailedEvents = () => {
             </Card.Content>
           </Card>
 
-          <Card style={{ marginLeft: 5 }}>
+          <Card style={{ marginLeft: 10 }}>
             <Image src={'/assets/categoryImages/drinks.jpg'} />
             <Card.Content>
               <Card.Header textAlign='center'>Event Title</Card.Header>

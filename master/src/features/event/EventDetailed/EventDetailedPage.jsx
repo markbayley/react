@@ -47,8 +47,8 @@ class EventDetailedPage extends Component {
     const isHost = event.hostUid === auth.uid;
     const isGoing = attendees && attendees.some(a => a.id === auth.id)
     return (
-      <Grid>
-        <Grid.Column width={10}>
+      <Grid style={{margin: -15}}>
+        <Grid.Column width={12}>
           <EventDetailedHeader
             event={event}
             isGoing={isGoing}
@@ -59,7 +59,7 @@ class EventDetailedPage extends Component {
           <EventDetailedInfo event={event} />
           <EventDetailedChat />
         </Grid.Column>
-        <Grid.Column width={6}>
+        <Grid.Column width={4}>
           <EventDetailedSidebar attendees={attendees} />
         </Grid.Column>
       </Grid>

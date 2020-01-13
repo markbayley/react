@@ -7,8 +7,8 @@ const UserDetailedDescription = ({ profile }) => {
     <Grid.Column width={16}>
       <Segment>
         <Grid columns={2}>
-          <Grid.Column width={10}>
-            <Header icon='smile' content='About Display Name' />
+          <Grid.Column width={8}>
+            <Header icon='smile' content='About' />
             <p>
               I am a: <strong>{profile.occupation || 'tbn'}</strong>
             </p>
@@ -23,7 +23,7 @@ const UserDetailedDescription = ({ profile }) => {
             </p>
             <p>{profile.description}</p>
           </Grid.Column>
-          <Grid.Column width={6}>
+          <Grid.Column width={8}>
             <Header icon='heart outline' content='Interests' />
             <List>
               {profile.interests ? (
