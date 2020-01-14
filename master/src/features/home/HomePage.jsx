@@ -24,7 +24,7 @@ const HomePage = ({ history }) => {
                         SocialCode
                     </Header>
                     <Header as='h2' inverted style={{ marginTop: 0, fontWeight: 50}}> 
-                       
+                       Find friends who like to code
                        
                     </Header>
                           
