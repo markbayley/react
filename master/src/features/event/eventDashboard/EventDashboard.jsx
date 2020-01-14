@@ -24,7 +24,7 @@ class EventDashboard extends Component {
 
     render() {
         const {events} = this.props;
-        if (!isLoaded(events)) return <LoadingComponent />
+       
         return (
             <Grid>
                 <Grid.Column width={16}>
