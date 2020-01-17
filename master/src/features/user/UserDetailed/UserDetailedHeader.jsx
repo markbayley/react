@@ -23,7 +23,7 @@ const UserDetailedHeader = ({ profile }) => {
               />
             </LazyLoad>
 
-            <Item.Content horizontalAlign='left'>
+            <Item.Content horizontalalign='left'>
               <Header as='h1'>{profile.displayName}</Header>
               <br />
               <Header as='h3'>{profile.occupation}, {age || '38 years'}</Header>

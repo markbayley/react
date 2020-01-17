@@ -133,4 +133,4 @@ export const addEventComment = (eventId, values, parentId) =>
       console.log(error)
       toastr.error('Oops', 'Problem adding comment')
     }
-  }
+  };

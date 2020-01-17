@@ -5,7 +5,7 @@ import DateInput from '../../../app/common/form/DateInput';
 import PlaceInput from '../../../app/common/form/PlaceInput';
 import TextInput from '../../../app/common/form/TextInput';
 import RadioInput from '../../../app/common/form/RadioInput';
-//import { addYears } from 'date-fns';
+import { addYears } from 'date-fns';
 
 class BasicPage extends Component {
   render() {
@@ -42,12 +42,12 @@ class BasicPage extends Component {
            width={8}
            name='dateofbirth'
            component={DateInput}
+           placeholder='Date of Birth'
            dateFormat='dd LLL yyyy'
            showYearDropdown={true}
            showMonthDropdown={true}
            dropdownMode='select'
-           placeholder='Date of Birth'
-           //maxDate={addYears(new Date(), -18)}        
+           maxDate={addYears(new Date(), -18)}        
           />
           <Field
             name='city'
