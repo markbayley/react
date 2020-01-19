@@ -29,11 +29,19 @@ Desktops (≥1200px)
        width: 0em;
        padding: 0em;
     }
+
+    #desktop {
+        display: none;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .news-section-wrapper {
         padding: 0 40px
+    }
+
+    #desktop {
+        display: none;
     }
 
 
